@@ -66,9 +66,9 @@ def create_embed(title, description="", color=0x1a1a1a):
         color=color
     )
 
-    embed.set_thumbnail(url="https://i.imgur.com/xSsIERx.png")
+    embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/1429752933729304719/1440255227440922684/IMG_20251020_132544.jpg?ex=691d7db4&is=691c2c34&hm=c57a01dcb069c1d4dbd1782283a97a02897027d4ae5abb64b37d5151773d2726&")
     embed.set_footer(text=f"GvmPanel VPS Manager • {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
-                    icon_url="https://i.imgur.com/xSsIERx.png")
+                    icon_url="https://cdn.discordapp.com/attachments/1429752933729304719/1440255227440922684/IMG_20251020_132544.jpg?ex=691d7db4&is=691c2c34&hm=c57a01dcb069c1d4dbd1782283a97a02897027d4ae5abb64b37d5151773d2726&")
 
     return embed
 
